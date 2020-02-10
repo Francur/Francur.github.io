@@ -1,0 +1,103 @@
+html ,body {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-color: #3d3b3b;
+	font-family: arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+.ss {
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin: 5px;
+	text-decoration:none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.button_1,.button_2,.button_3,.button_4 {
+	padding: 10px;
+	margin: 10px;
+	text-decoration:none;
+	color: white;
+	border-radius: 10px;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.container {
+	border: 1px solid #3d3b3b;
+	padding: 30px;
+	margin: 30px;
+	width: 80%;
+	height: 1000px;
+	border-radius: 10px;
+}
+
+#name {
+	width: 60%;
+
+}
+
+.det ,.car ,.rest {
+	border: 1px solid #3d3b3b;
+	width: 60%
+}
+
+.sidebar {	
+	width: 30%;
+	height: 500px;
+	text-align: left;
+	padding: 10px;
+	margin:10px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+img {
+	width: 0 auto;
+	height: 250px;
+	display: inline-block;
+}
+.button_5,.button_6,.button_7,.button_8 {
+	text-align: center;
+	width: 200px;
+	border-radius: 10px;
+
+
+
+}
+.button_5 {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #dbbe00;
+}
+.button_6 {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #00aeff;
+}
+.button_7 {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #0008ff;
+}
+.button_8 {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #ba025b;
+}
